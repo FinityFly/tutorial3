@@ -14,9 +14,9 @@ bool File::lessthan(File& f){
 }
 
 void File::print(){
-    cout<<name<<": "<<date.getYear()<<" "<<date.getMonthName()<<" "<<date.getDay()<<"\n";
+    cout<<"File: "<<name<<"\nDate added: "<<date.getMonthName()<<" "<<date.getDay()<<", "<<date.getYear()<<"\n";
 }
 
 void File::printContents(){
-    cout<<content<<"\n";
+    cout<<"File: "<<name<<"\nDate added: "<<date.getMonthName()<<" "<<date.getDay()<<", "<<date.getYear()<<"\n"<<content<<"\n";
 }
